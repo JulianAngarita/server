@@ -31,7 +31,7 @@ exports.autenticarUsuario = async (req, res) => {
             usuario: {
                 id: usuario.id
             }
-        };
+        };    
 
         // firmar el JWT
         jwt.sign(payload, process.env.SECRETA, {
