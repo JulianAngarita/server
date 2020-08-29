@@ -21,8 +21,7 @@ const UsuariosSchema = mongoose.Schema({
     curso: {
         type: String,
         required: true,
-        trim: true, 
-        unique: true
+        trim: true
     },
     rol: {
         type: String,
